@@ -5,7 +5,84 @@ html(lang="hu")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Energiafelhő
     style.
-      /* Itt helyezze el a CSS stílusokat a template.html fájlból */
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #333;
+          color: #eee;
+      }
+
+      header {
+          background-color: #222;
+          padding: 20px 0;
+          text-align: center;
+      }
+
+      nav {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin-bottom: 40px;
+      }
+
+      nav a {
+          margin: 5px 0;
+          text-decoration: none;
+          color: #eee;
+          transition: color 0.3s;
+      }
+
+      nav a:hover {
+          color: #3498db;
+      }
+
+      h1 {
+          font-size: 2.5rem;
+          margin-bottom: 20px;
+      }
+
+      p {
+          font-size: 1.2rem;
+          margin-bottom: 40px;
+          max-width: 800px;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+      .button {
+          display: inline-block;
+          background-color: #3498db;
+          color: #fff;
+          padding: 10px 20px;
+          border: none;
+          border-radius: 5px;
+          font-size: 1.2rem;
+          cursor: pointer;
+          transition: background-color 0.3s;
+          text-decoration: none;
+      }
+
+      .button:hover {
+          background-color: #2980b9;
+      }
+
+      footer {
+          padding: 20px;
+          text-align: center;
+          margin-top: 40px;
+          border-top: 1px solid #555;
+      }
+
+      @media screen and (min-width: 768px) {
+          nav {
+              flex-direction: row;
+          }
+          nav a {
+              margin: 0 20px;
+          }
+      }
   body
     header
       h1 Energiafelhő

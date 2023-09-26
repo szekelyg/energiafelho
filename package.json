@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonheslop/nodejs-starter.git"
+    "url": "git+https://github.com/energiafelho.git"
   },
   "keywords": [
     "nodejs",
     "js",
     "xo"
   ],
-  "author": "Jon Heslop",
-  "license": "MIT",
+  "author": "Gellért Székely",
+  "license": "Danubia Energia Kft",
   "bugs": {
-    "url": "https://github.com/jonheslop/nodejs-starter/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/jonheslop/nodejs-starter#readme",
+  "homepage": "https://energiafelho-v2.onrender.com",
   "xo": {
     "space": true
   },
@@ -31,6 +31,9 @@
     ]
   },
   "devDependencies": {
+    "express": "^4.17.1",
+    "mqtt": "^4.2.6",
+    "pug": "^3.0.2",
     "husky": "^0.14.3",
     "lint-staged": "^5.0.0",
     "xo": "^0.18.2"

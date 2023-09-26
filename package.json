@@ -1,5 +1,5 @@
 {
-  "name": "EnergiaFelho",
+  "name": "energiafelho-app",
   "version": "1.0.0",
   "description": "Energiaközösségi elszámolási redszer",
   "main": "server.js",

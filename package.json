@@ -1,0 +1,38 @@
+{
+  "name": "EnergiaFelhő",
+  "version": "1.0.0",
+  "description": "Energiaközösségi elszámolási redszer",
+  "main": "server.js",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonheslop/nodejs-starter.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "xo"
+  ],
+  "author": "Jon Heslop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonheslop/nodejs-starter/issues"
+  },
+  "homepage": "https://github.com/jonheslop/nodejs-starter#readme",
+  "xo": {
+    "space": true
+  },
+  "lint-staged": {
+    "*.js": [
+      "xo --fix",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^5.0.0",
+    "xo": "^0.18.2"
+  }
+}
